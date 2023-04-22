@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<img class="logo" src="Logo.png" alt="logo" id="logo">
+
+<title>Encriptado</title>
+<main>
+
+    
+
+
+<section class="uno">
+    <div class="contenedor">
+    <textarea class="text-input" name="input-texto" id="input-texto" placeholder="ingresa el texto que desee desencriptar" style="background-color: #87cfeb00;"></textarea>
+    </div>
+</section>
+    <div class="alerta">
+    <img src="alerta.svg" alt="alerta">
+    <p>Solo letras minúsculas y sin acentos</p>
+    </div>
+     
+    <div class="contenedorboton">
+    <input class="btn1" type="submit" value="Encriptar !!!" id="btn-encriptar"onclick="mostrarBoton2()">
+    <input class="btn2" type="submit" value="Desencriptar !!!" id="btn-desencriptar"onclick="mostrarBoton1()">
+   
+    </div>
+    
+</section>
+
+
+<section class="dos">
+    <div class="contenedor2">
+    <img class="muñeco_tamaño" src="Muñeco.svg" alt="muñeco"id="munecoo" >
+    </div>
+    <div class="contenedor3">
+    
+    
+    </div>
+    <section class="uno">
+    <div class="nuevo">
+    <p class="resultado"id="resultadot">resultado</p>   
+    <textarea class="text-input1" name="mensaje-texto" placeholder="nigun mensaje" id="mensaje-texto"style="background-color: #87cfeb00;" readonly="readonly"></textarea>              
+     
+</div>
+</section>
+    <div class="contenedor4">
+        <input class="btn3" type="submit" value="Copiar texto" id="btn-copy"onclick="mostrarBoton3()">
+    </div>
+    </div>
+   
+    
+    </section>
+</main>
+
+
+
+<script src="datos.js"></script>
+</body>
+</html>
+
+
